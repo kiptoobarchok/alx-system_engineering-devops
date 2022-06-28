@@ -1,0 +1,30 @@
+total 12
+drwxr-xr-x 1 kiptoo kiptoo  4096 Jun 28 20:37 .
+lrwxrwxrwx 1 kiptoo kiptoo    22 Jun 28 20:34 .#10-no_more_js -> root@653586bdb93c.1844
+drwxr-xr-x 1 kiptoo kiptoo  4096 Jun 28 20:34 ..
+-rw-r--r-- 1 kiptoo kiptoo 12288 Jun 28 20:34 .6-third_line.swp
+-rwxr-xr-x 1 kiptoo kiptoo    32 Jun 28 20:34 0-hello_world
+-rwxr-xr-x 1 kiptoo kiptoo    28 Jun 28 20:34 1-confused_smiley
+-rwxr-xr-x 1 kiptoo kiptoo    47 Jun 28 20:34 10-no_more_js
+-rwxr-xr-x 1 kiptoo kiptoo    52 Jun 28 20:34 11-directories
+-rwxr-xr-x 1 kiptoo kiptoo    30 Jun 28 20:34 12-newest_files
+-rwxr-xr-x 1 kiptoo kiptoo    27 Jun 28 20:34 13-unique
+-rwxr-xr-x 1 kiptoo kiptoo    36 Jun 28 20:34 14-findthatword
+-rwxr-xr-x 1 kiptoo kiptoo    38 Jun 28 20:34 15-countthatword
+-rwxr-xr-x 1 kiptoo kiptoo    41 Jun 28 20:34 16-whatsnext
+-rwxr-xr-x 1 kiptoo kiptoo    38 Jun 28 20:34 17-hidethisword
+-rwxr-xr-x 1 kiptoo kiptoo    51 Jun 28 20:34 18-letteronly
+-rwxr-xr-x 1 kiptoo kiptoo    33 Jun 28 20:34 19-AZ
+-rwxr-xr-x 1 kiptoo kiptoo    28 Jun 28 20:34 2-hellofile
+-rwxr-xr-x 1 kiptoo kiptoo    34 Jun 28 20:34 20-hiago
+-rwxr-xr-x 1 kiptoo kiptoo    16 Jun 28 20:34 21-reverse
+-rwxr-xr-x 1 kiptoo kiptoo    48 Jun 28 20:34 22-users_and_homes
+-rwxr-xr-x 1 kiptoo kiptoo    39 Jun 28 20:34 3-twofiles
+-rwxr-xr-x 1 kiptoo kiptoo    35 Jun 28 20:34 4-lastlines
+-rwxr-xr-x 1 kiptoo kiptoo    35 Jun 28 20:34 5-firstlines
+-rwxr-xr-x 1 kiptoo kiptoo    36 Jun 28 20:34 6-third_line
+-rwxr-xr-x 1 kiptoo kiptoo    74 Jun 28 20:34 7-file
+-rwxr--r-- 1 kiptoo kiptoo    36 Jun 28 20:36 8-cwd_state
+-rwxr-xr-x 1 kiptoo kiptoo    35 Jun 28 20:34 9-duplicate_last_line
+-rw-r--r-- 1 kiptoo kiptoo    63 Jun 28 20:34 README.md
+-rw-r--r-- 1 kiptoo kiptoo     0 Jun 28 20:37 ls_cwd_content
