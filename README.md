@@ -4,25 +4,25 @@
 
 *Read or watch*:
 
-["What Is “The Shell”?]
+["What Is “The Shell”?](https://intranet.alxswe.com/rltoken/vwO91sqNBgRL03BLu-ueiA)
 
-[Navigation]
+[Navigation](https://intranet.alxswe.com/rltoken/iblidp7yp6i-QpT8rDXHaA)
 
-[Looking Around]
+[Looking Around](https://intranet.alxswe.com/rltoken/xEKUCnQsMH0esQ6fJU5vLA)
 
-[A Guided Tour]
+[A Guided Tour](https://intranet.alxswe.com/rltoken/HUhQ73fFR1GOC5nb4r-mDw)
 
-[Manipulating Files]
+[Manipulating Files](https://intranet.alxswe.com/rltoken/olv-1tj4d1LA57Z0PrLNvw)
 
-[Working With Commands]
+[Working With Commands](https://intranet.alxswe.com/rltoken/zUtux3Pm0BkvtwXzbTtkmA)
 
-[Reading Man pages]
+[Reading Man pages](https://intranet.alxswe.com/rltoken/rddGdsqLf8_kRzp12RaD4A)
 
-[Keyboard shortcuts for Bash]
+[Keyboard shortcuts for Bash](https://intranet.alxswe.com/rltoken/AGxMxuS5IeW8VmEvJyhwvw)
 
-[LTS]
+[LTS](https://wiki.ubuntu.com/LTS)
 
-[Shebang]
+[Shebang](https://intranet.alxswe.com/rltoken/cE8ZA3kgEaFhB-IDNv31bQ)
 
 *man or help*:
 
