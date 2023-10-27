@@ -39,6 +39,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## More Info
 
 ***Shellcheck***
+
+
 [Shellcheck](https://intranet.alxswe.com/rltoken/joK6l_yEZ9N7T0GQ1RDjLA) is a tool that will help you write proper Bash scripts. It will make recommendations on your syntax and semantics and provide advice on edge cases that you might not have thought about. Shellcheck is your friend! _All your Bash scripts must pass Shellcheck without any error or you will not get any points on the task_.
 
 Shellcheck is available on the school’s computers. If you want to use it on your own computer, here is how to install it.
