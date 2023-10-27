@@ -4,6 +4,7 @@
 
 ## Resources
 Read or watch:
+
 [Linux PID](https://intranet.alxswe.com/rltoken/qVGxUt1QMIV4B4oVrQBlQg)
 
 [Linux process](https://intranet.alxswe.com/rltoken/px2TdWSjVO8i9SB5gHchAw)
