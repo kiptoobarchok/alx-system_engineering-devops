@@ -80,7 +80,9 @@ For multiple choice question type tasks, just type the number of the correct ans
 What is the most important position in a software company?
 
 1.Project manager
+
 2.Backend developer
+
 3.System administrator
 
     sylvain@ubuntu$ cat foo_answer_file
