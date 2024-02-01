@@ -2,6 +2,7 @@
 #update package lists
 apt-get -y update
 apt-get install -y nginx
-ufw allow 'Nginx HTTP'
 echo "Hello World!" > /var/www/html/index.html
 service nginx start
+# Optionally, open port 80 in the firewall (if enabled)
+ufw allow 80
