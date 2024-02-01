@@ -9,12 +9,6 @@ apt-get install -y nginx
 #create hello world HTML file
 echo "Hello world!" > /var/www/html/index.html
 
-#ensure listening on port 80
-sed -i 's/#listen\ [\:\]*80;/listen 80;/' /etc/nginx/sites-available/default
+ufw allow 'Nginx HTTP'
 
-#Restart nginx without systemctl
-nginx -s stop
-nginx
-
-#open port 80 in firewall
-ufw allow 80
+service nginx start
