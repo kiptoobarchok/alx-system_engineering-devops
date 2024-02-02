@@ -6,3 +6,4 @@ echo "Hello World!" > /var/www/html/index.html
 service nginx start
 # Optionally, open port 80 in the firewall (if enabled)
 ufw allow 80
+sed -i 's/#listen\ [\:\]*80;/listen 80;/' /etc/nginx/sites-available/default
