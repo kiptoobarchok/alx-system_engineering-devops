@@ -33,7 +33,7 @@ server {
   index index.html index.htm;
 
   location /redirect_me {
-    return 301 http://example.com/new-page;  # Replace with your desired target URL
+    return 301 http://cuberule.com/;
   }
 }
 ',
