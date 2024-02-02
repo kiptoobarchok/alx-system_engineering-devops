@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Configure your Nginx server so that /redirect_me is redirecting to another page
+
+apt-get update
+apt-get install -y nginx
+
+# Check if directory and file exist before creating
+if [ ! -d "/etc/nginx/html" ]; then
+    mkdir /etc/nginx/html
+fi
+
+if [ ! -f "/etc/nginx/html/index.html" ]; then
+    touch /etc/nginx/html/index.html
+    echo "Hello Word!" > /etc/nginx/html/index.html
+fi
+
+# Configure Nginx
+printf %s "server {
+    listen 80;
+    listen [::]:80 default_server;
+    root   /etc/nginx/html;
+    index  index.html index.htm;
+    location /redirect_me {
+        return 301 http://www.example.com/new-location;
+    }
+}" > /etc/nginx/sites-available/default
+
+# Restart Nginx
+service nginx restart
