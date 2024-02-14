@@ -2,6 +2,8 @@
 
 ## Resources
 
+![alt text](Screenshot+2017-07-06+19.24.05.png)
+
 ### Read or watch:
 
 - [How the web works](https://intranet.alxswe.com/rltoken/6TI3HiyFdwrbXWKVF24Gxw)
