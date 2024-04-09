@@ -2,7 +2,6 @@
 """
 function to querry reddit API and return titles of first 10 hot posts
 """
-
 from requests import get
 
 
