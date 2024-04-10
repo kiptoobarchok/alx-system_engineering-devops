@@ -2,32 +2,22 @@
 '''
 function to querry reddit API and return number of subscribers
 '''
-import requests
-import requests.exceptions
+from requests import get
 
 
 def number_of_subscribers(subreddit):
     'function to querry reddit API and return number of subscribers'
-    #base url
+    if subreddit is None or not isinstance(subreddit, str):
+        return 0
 
-    url = f"https://www.reddit.com/r/{subreddit}/about.json"
-    headers = {"User-Agent": "My Reddit Subscriber Counter"}
+    user_agent = {'User-agent': 'Google Chrome Version 81.0.4044.129'}
+    url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
+    response = get(url, headers=user_agent)
+    results = response.json()
 
     try:
-        #Send request
-        result = requests.get(url, headers=headers)
-        #check for succesful response
-        if result.status_code == 200:
-            #store data
-            data = result.json()
+        return results.get('data').get('subscribers')
 
-            #return subscriber count
-            return data.get("data").get("subscribers")
-        else:
-            return 0
-        
-    except requests.exceptions.RequestException as e:
-        print(f"Error!!: {e}")
+    except Exception:
         return 0
-    
     
