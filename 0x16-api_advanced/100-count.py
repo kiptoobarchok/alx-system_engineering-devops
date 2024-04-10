@@ -13,14 +13,9 @@ from requests import get
 def count_words(subreddit, word_listnew_after='',
                 words_dict={}):
     'recursive function'
-
-    def count_words(subreddit, word_list, new_after='',
-                words_dict={}):
-        """
-        A recursive function
-        """
-
-    word_list = map(lambda x: x.lower(), word_list)
+    
+    word_list = map(lambda
+     x: x.lower(), word_list)
     word_list = list(word_list)
 
     res = requests.get("https://www.reddit.com/r/{}/hot.json"
@@ -63,4 +58,3 @@ def count_words(subreddit, word_listnew_after='',
 
     return count_words(subreddit, word_list,
                        new_after, words_dict)
-
