@@ -5,30 +5,21 @@ prints the titles of the first 10 hot posts listed for a given subreddit
 
 
 import requests
-
+from sys import argv
 
 def top_ten(subreddit):
-    # defining the limit
-    url = f'https://www.reddit.com/r/{subreddit}/hot.json?limit=10'
-    # setting user-agent
-    headers = {'User-Agent': 'My Reddit API Client'}
-
+    '''
+        returns the top ten posts for a given subreddit
+    '''
+    user = {'User-Agent': 'Lizzie'}
+    url = requests.get('https://www.reddit.com/r/{}/hot/.json?limit=10'
+                       .format(subreddit), headers=user).json()
     try:
-        # Making request with no redirects allowed
-        response = requests.get(url, headers=headers, allow_redirects=False)
-        # Check for a 200 OK status code
-        if response.status_code == 200:
-            data = response.json()
-            # check if data contains posts
-            if 'data' in data and 'children' in data['data']:
-                # Extract and print the titles of the first 10 posts
-                for post in data['data']['children']:
-                    print(post['data']['title'])
-            else:
-                print("None")
-        else:
-            print("None")
-    except requests.exceptions.RequestException:
-        print("None")
-    except KeyError:
-        print("None")
+        for post in url.get('data').get('children'):
+            print(post.get('data').get('title'))
+    except Exception:
+        print(None)
+
+
+if __name__ == "__main__":
+    top_ten(argv[1])
